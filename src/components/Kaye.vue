@@ -1,5 +1,7 @@
 <template>
     <div>
+        {{ lovemsg }}
+        {{ lovesms }}
         <h1>Please Select your Skills</h1>
         <label for="PHP">Php</label>
         <input type="checkbox" id="PHP" v-model="tech" value="PHP">
@@ -27,6 +29,10 @@
 </template>
 <script>
 export default {
+    props:[
+        'lovemsg',
+        'lovesms'
+    ],
     data(){
         return{
             tech: [],
