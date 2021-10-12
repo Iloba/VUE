@@ -1,23 +1,26 @@
 <template>
-<Class/>
-<loop :data="classes"/>
+<!-- <Class/> -->
+<!-- <loop :data="classes"/>
 <button v-on:click="getData">Button</button>
 <kaye lovemsg="I love you boo" lovesms="I love you bae"/>
 
 <jude :msg="names" />
 <Home />
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your  Vue.js + Laravel App"/>
-
+  <HelloWorld msg="Welcome to Your  Vue.js + Laravel App"/> -->
+  <div>
+    <style-binding/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Home from './components/Home.vue'
-import Jude from './components/Jude.vue'
-import Kaye from './components/Kaye.vue'
-import Loop from './components/Loop.vue'
-import Class from './components/Class.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import Home from './components/Home.vue'
+// import Jude from './components/Jude.vue'
+// import Kaye from './components/Kaye.vue'
+// import Loop from './components/Loop.vue'
+// import Class from './components/Class.vue'
+import StyleBinding from './components/StyleBinding.vue'
 
 export default {
   name: 'App',
@@ -37,12 +40,13 @@ export default {
     }
   },
   components: {
-    HelloWorld,
-    Home,
-    Jude,
-    Kaye,
-    Loop,
-    Class
+    // HelloWorld,
+    // Home,
+    // Jude,
+    // Kaye,
+    // Loop,
+    // Class
+    StyleBinding,
   }
 }
 </script>
